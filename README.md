@@ -12,8 +12,11 @@ It performs hilarious stand-up comedy routines based on a variety of prompt topi
 This project explores:
 
 - 🧠 Agent abstraction using OpenAI's `Agent`, `Runner`, and `trace`
+  
 - 🔐 Secure API usage via `google.colab.userdata`
+  
 - ⚙️ Prompt engineering and persona modeling
+  
 - 🧾 Tracing agent behavior with [OpenAI Traces](https://platform.openai.com/traces)
 
  This is a fun, creative demonstration of building real-world agentic systems in AI — perfect for showcasing applied skills.
@@ -33,10 +36,14 @@ Humans now have weekly therapy sessions just to hear someone say, "You still mat
 ## 🚀 How It Works
 
 1. ✅ **Create an agent** using the `Agent` class (e.g., Jokster).
+   
 2. 🧠 Provide **custom instructions** to give the agent a comedic personality.
-4. 🔐 Securely load your OpenAI API key in Google Colab using `userdata`.
-5. 🏃 Run prompts using `Runner.run()` and log traces with `trace()`.
-6. 🎤 Display the final output of each performance.
+   
+3. 🔐 Securely load your OpenAI API key in Google Colab using `userdata`.
+   
+4. 🏃 Run prompts using `Runner.run()` and log traces with `trace()`.
+   
+5. 🎤 Display the final output of each performance.
 
 ---
 
